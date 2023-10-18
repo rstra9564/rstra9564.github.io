@@ -1,0 +1,12 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'moonless';
+    src: url('../fonts/moonlesssc-regular_1-webfont.woff') format('woff'),
+         url('../fonts/moonlesssc-regular_1-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}   
+body {
+    font-family: 'moonless', Georgia, "Times New Roman"
+}
