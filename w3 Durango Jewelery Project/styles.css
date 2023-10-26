@@ -1,0 +1,67 @@
+
+/*Riley Strasser 10/24/2023 */
+
+h1{
+	font-size: 4em;
+}
+h2{
+	font-size: 2em;
+	font-style: italic;
+}
+@font-face {
+    font-family: 'moonless';
+    src: url('../fonts/moonlesssc-regular_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
+h2 {
+    font-family: 'moonless', Georgia, "Times New Roman";
+	font-size: 2em;
+}
+
+.google {
+    font-family: 'Pacifico', Georgia, "Times New Roman"
+}
+#outer-wrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	vertical-align: middle;
+	
+}
+.border {
+	width: 70%; margin: 0 auto 0 auto;
+	height: 70%; margin: 0 auto 0 auto;
+}
+.img {
+	background-image: url("images/jewelry.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	width: 100%; margin: 0 auto 0 auto;
+	height: 100%; margin: 0 auto 0 auto;
+	overflow: hidden;
+}
+.add-right-margin {
+	float: left; 
+	border-radius: 50%;
+	margin-right: 10%;
+}
+#nav li {
+	list-style-type: none;
+	font-size: 1.5em;
+	clear: left;
+}
+#main {
+background:Linear-gradient(#FFFF, #F0F9E6);
+padding: 10px;
+margin: 20px;
+border-radius: 2em;
+Font-size: 1.25em;
+Font-family: Arial, Verdana, "Times NewRoman";
+}
+#footer {
+     font-size: 1em;
+	 padding-bottom: 10px;
+	 text-align: center;
+}
+
