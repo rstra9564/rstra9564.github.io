@@ -1,0 +1,135 @@
+/*Riley Strasser 11/07/2023*/
+/*************************** Mobile ***************************/
+@media screen and (max-width:640px){
+body {
+	background-color: #fff5fd;
+}
+nav ul li {
+	list-style-type: none;
+}
+h2{
+	display: none;
+}
+img{
+	display:none;
+}
+footer{
+	background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+}
+}
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px){
+
+nav ol li {
+	display: inline;
+	list-style-type: none;
+
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+footer{
+	background: linear-gradient(rgba(144,199,227,1), rgba(255,255,255,1));
+}
+
+}
+/***************** Large Devices ****************************/
+@media screen and (min-width:992px){
+nav ol li{
+	display: block;
+}
+footer{
+	background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+}
+body 
+{ 
+	background-color: #FFFFFF;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header 
+{ 
+	background-color: #000033;
+    color: #FFFFFF; 
+	background-image: url(../images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;
+}
+img{
+	background-image: 
+	url('../images/coast.jpg')
+	url('../images/trail.jpg')
+	url('../images/yurt.jpg');
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+	background-repeat: none;
+	width: 99%;
+	height: 90%;
+}
+nav
+{ 
+	margin: 0;
+	padding: 0;
+	background-color: #90C7E3;
+	padding: 0px;
+    font-weight: bold;
+	list-style-type: none;
+}
+.ol{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+h1 
+{ 
+	margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	
+h2 
+{ 
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	 
+h3 
+{ 
+	color: #000033;
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+
+.ul 
+{ 
+	margin: 0;
+	padding: 0px;
+	list-style-image: url(../images/marker.gif); 
+} 
+
+footer 
+{ 
+	font-size: 75%;
+    font-style: bold;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+	   
+dt 
+{ 
+	color: #000033; 
+}
+
+.resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+}
+
+#contact
+{ 
+	font-size: 90%; 
+}
