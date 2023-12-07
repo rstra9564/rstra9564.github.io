@@ -93,7 +93,7 @@ body {
         text-transform:uppercase;
         text-align: center;
         padding-left: 15px;
-        border: 5px solid rgb(181, 179, 179) ;
+        background-color: black;
         color:#cfcfcf;
     }
     ul {
