@@ -25,15 +25,11 @@ body {
         font-family: Helvetica, sans-serif;
         font-weight: 200;
         color:#cfcfcf;
-        text-transform: uppercase;
-        text-decoration: none;
     }
     a:hover {
         font-family: Helvetica, sans-serif;
         font-weight:200;
         color:rgb(70, 70, 70);
-        text-transform: uppercase;
-        text-decoration: none;
     }
     ul {
         font-family: 'ostrich', Helvetica, sans-serif;
