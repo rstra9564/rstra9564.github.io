@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!--Riley Strasser 3/23/25-->
+<html>
+  <head>  
+<!--Data-->
+  <meta name="author" content="Riley Strasser">
+    <meta charset="UTF-8">
+    <meta content="description" name="Po's Porsche's">
+    <meta name="keywords" content="UX UI software programming" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Dealership</title> 
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="Scripts/index.ts"></script>
+    <script src="Scripts/js/jquery.js"></script>
+    <script src="Scripts/js/jqueryui.js"></script>
+    <header>
+<!--Navigation Bar-->
+<div id="nav-container">
+<div class="logo"><img src="images/Poslogo.png" alt="Cinque Terre" width="150" height="150"></div>
+<div><h1>Po's Porsche's</h1></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Inventory.html">Inventory</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+</div>        
+    </header>
+    </head>    
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<!--*Contact Form*-->
+<div class="contact-form">
+  <h3>Contact Us</h3>
+  <form id="contactForm" onsubmit="return validateForm();">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <span id="nameError" class="error"></span>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <span id="emailError" class="error"></span>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+      <span id="messageError" class="error"></span>
+    </div>
+    <div class="form-group">
+      <button type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+<footer>
+    <div id="copyright" class="copyright">
+        <p>
+             &#169; Riley Strasser, 2025.
+        </p>
+        </div>
+    </footer>
+  </body>
+</html>
