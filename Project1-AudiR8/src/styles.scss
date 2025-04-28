@@ -1,0 +1,17 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+body{
+  background-color: black;
+}
+.jumbotron{
+  margin:50px 30px 0px 0px;
+  border-radius:2px;
+  background: url('src/img/r8mainbg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:rgb(185, 185, 185) !important;
+  height:550px;
+}
+.card-img-bottom {
+  height: 30vw;
+  object-fit:cover;
+}
